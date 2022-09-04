@@ -5,5 +5,8 @@ marca - VARCHAR (32) - NOT NULL
 modello - VARCHAR (64) - NOT NULL 
 anno - YEAR - NOT NULL - INDEX
 kilometri - FLOAT (7,3)  - NOT NULL - INDEX
-descrizione - TEXT (2048) - DEFAULT -
+Cilindrata - SMALLINT - NULL - INDEX
+Motore - VARCHAR (16) - NULL
+Cambio - VARCHAR (16) - Null
+descrizione - TEXT (2048) - DEFAULT 
 prezzo - FLOAT(6,2) - NOT NULL - INDEX
